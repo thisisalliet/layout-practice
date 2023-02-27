@@ -1,7 +1,26 @@
+body {
+    margin: 0;
+}
+
+article, aside, footer {
+    margin: 12px;
+}
+
 header {
     background-color: #294969;
     color:ghostwhite;
     padding: 10px 15px;
     border: 12px solid #ffa949;
     border-bottom-color: #cf7919;
+    /* margin: 20px 5px; */
+}
+
+footer {
+    width: 200px;
+    padding: 4px;
+    border: 2px solid #ffa949;
+    margin: 30px auto 15px;
+    color: #294969;
+    font-size: .8rem;
+    text-align: center;
 }
