@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.25em; /* 20px on most screens */
+}
+
 body {
     margin: 0;
 }
@@ -7,6 +15,7 @@ article, aside, footer {
 }
 
 header {
+    height: 25vh;
     background-color: #294969;
     color:ghostwhite;
     padding: 10px 15px;
@@ -15,9 +24,22 @@ header {
     margin: -8px -8px 20px;
 }
 
-aside img {
-    width: 600px;
-    height: auto;
+section {
+    min-height: 100vh;
+    padding: 1rem;
+    border-bottom: 2px dotted #666;
+    background: azure;
+}
+
+aside img, #bio {
+    width: 100%;
+    max-width: 600px;
+}
+
+#bio {
+    padding: 2rem;
+    border: 5px solid tomato;
+    background-color: mistyrose;
 }
 
 footer {
